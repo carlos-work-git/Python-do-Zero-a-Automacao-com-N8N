@@ -1,0 +1,72 @@
+# Python
+# ===============================
+# Bytecode e arquivos compilados
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+env/
+venv/
+.venv/
+# Para ambientes conda, você pode ter:
+# .conda/
+# conda-meta/
+
+# Logs e artefatos do pip
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ferramentas de teste e empacotamento
+.tox/
+.nox/
+.eggs/
+*.egg-info/
+dist/
+build/
+*.so
+.pytest_cache/
+
+# Arquivos de dados e logs (geralmente não versionados)
+# ===============================
+*.log
+*.sqlite3
+*.csv
+*.json
+*.xlsx
+*.xls
+*.db
+# Se você tiver pastas de dados específicas que não devem ser versionadas
+# data/
+# output/
+
+# Jupyter Notebook
+# ===============================
+# Checkpoints de salvamento automático do Jupyter
+.ipynb_checkpoints/
+
+# Saídas de notebooks (se você quiser versionar apenas o código e não as saídas)
+# Se você quiser versionar os notebooks INTEIROS (incluindo saídas), remova esta linha.
+# Caso contrário, considere usar nbstripout para limpar as saídas antes do commit.
+# *.ipynb
+
+# VS Code
+# ===============================
+.vscode/
+# Ignora o diretório de configurações do VS Code.
+# Se você compartilha algumas configurações (ex: settings.json, extensions.json)
+# com a equipe, você pode ser mais específico:
+# .vscode/*
+# !.vscode/settings.json
+# !.vscode/extensions.json
+# !.vscode/launch.json
+# !.vscode/tasks.json
+
+# Diversos
+# ===============================
+.DS_Store # macOS
+Thumbs.db # Windows
+.env # Variáveis de ambiente (sempre ignorar!)
+
+executar.bat
